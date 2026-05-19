@@ -151,7 +151,7 @@ Cuando la aplicación esté abierta:
 
 3. **Espera a que se publique**:
    - GitHub Pages compilará y publicará tu sitio
-   - Deberías ver un mensaje verde: "Your site is live at https://contrerasrdianac406.github.io/ProyectoM1_DianaCarolinaContreras/https://tu-usuario.github.io/nombre-del-repositorio"
+   - Deberías ver un mensaje verde: "Your site is live at https://contrerasrdianac406.github.io/ProyectoM1_DianaCarolinaContreras/
 
 #### Paso 3: Acceder a tu aplicación
 
