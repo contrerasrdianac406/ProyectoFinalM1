@@ -39,9 +39,16 @@ ProyectoFinal/
 
 1. **Abrir la aplicación**: Abre `index.html` en tu navegador web
 2. **Seleccionar cantidad de colores**: Usa el dropdown "Elige una opción" para elegir 6, 8 o 9 colores
-3. **Elegir formato**: Selecciona entre Hexadecimal o HSL usando los radio buttons
-4. **Generar paleta**: Haz clic en el botón "Generar paleta" para crear una nueva paleta
+3. **Generar paleta**: Haz clic en el botón "Generar paleta" para crear una nueva paleta
+4. **Elegir formato**: Selecciona entre Hexadecimal o HSL usando los radio buttons
 5. **Ver colores**: Los colores se mostrarán en las tarjetas con su código en el formato seleccionado
+
+![alt text](image.png)
+
+## Demo
+
+1. **Demo de la apliocación**: En el siguiente link se puede visualizar el funcionamiento de la aplicación.
+   https://canva.link/5r3l8jdoy44hy5l
 
 ## 🔧 Tecnologías Utilizadas
 
@@ -74,6 +81,86 @@ ProyectoFinal/
 - No requiere instalación de dependencias
 - No requiere conexión a internet
 
+## � Pasos para Descargar y Ejecutar en Local
+
+### Opción 1: Descargar el repositorio (si está en GitHub)
+
+1. **Descargar el proyecto**:
+   - Haz clic en el botón `Code` (verde) en el repositorio
+   - Selecciona `Download ZIP`
+   - Descomprime el archivo en la carpeta donde desees guardar el proyecto
+
+2. **Alternativa con Git**:
+   ```bash
+   git clone https://github.com/contrerasrdianac406/ProyectoM1_DianaCarolinaContreras.git
+   ```
+
+### Opción 2: Descargar archivos directamente
+
+1. **Descarga manual**:
+   - Descarga cada archivo (`index.html`, `style.css`, `script.js`) desde el repositorio
+   - Crea la estructura de carpetas:
+     ```
+     ProyectoFinal/
+     ├── index.html
+     ├── CSS/
+     │   └── style.css
+     └── JS/
+         └── script.js
+     ```
+
+### Pasos para Ejecutar
+
+1. **Opción 1 - Abrir directamente en el navegador** (más simple):
+   - Navega hasta la carpeta del proyecto
+   - Haz doble clic en `index.html`
+   - La aplicación se abrirá automáticamente en tu navegador predeterminado
+
+2. **Opción 2 - Usar un servidor local** (recomendado):
+
+   **Con Live Server (VS Code)**:
+   - Abre la carpeta del proyecto en VS Code
+   - Instala la extensión "Live Server" de Ritwick Dey
+   - Haz clic derecho en `index.html` y selecciona "Open with Live Server"
+
+### Verificación de Instalación
+
+Cuando la aplicación esté abierta:
+
+- Deberías ver un título "Generador de Paleta de Colores"
+- Un dropdown para seleccionar cantidad de colores
+- Radio buttons para elegir formato (HEX o HSL)
+- Un botón "Generar paleta"
+- Las tarjetas de colores deberían aparecer al generar
+
+## 🚀 Desplegar en GitHub Pages
+
+#### Paso 1: Activar GitHub Pages
+
+1. **Accede a la configuración del repositorio**:
+   - Ve a tu repositorio en GitHub
+   - Haz clic en `Settings` (Configuración)
+   - En el menú lateral, selecciona `Pages`
+
+2. **Configura la rama de publicación**:
+   - En la sección "Build and deployment"
+   - En "Source", selecciona `Deploy from a branch`
+   - En "Branch", elige `main` (o la rama que uses)
+   - En "Folder", selecciona `/ (root)`
+   - Haz clic en `Save`
+
+3. **Espera a que se publique**:
+   - GitHub Pages compilará y publicará tu sitio
+   - Deberías ver un mensaje verde: "Your site is live at https://contrerasrdianac406.github.io/ProyectoM1_DianaCarolinaContreras/https://tu-usuario.github.io/nombre-del-repositorio"
+
+#### Paso 3: Acceder a tu aplicación
+
+Tu aplicación estará disponible en:
+
+```
+https://contrerasrdianac406.github.io/ProyectoM1_DianaCarolinaContreras/
+```
+
 ## 📄 Licencia
 
-Proyecto creativo personal - Libre para uso educativo.
+Proyecto personal - Libre para uso educativo.
